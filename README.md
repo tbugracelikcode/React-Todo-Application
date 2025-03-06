@@ -8,7 +8,7 @@ This project is a simple Todo application developed using React and Vite. Users 
 
 ❌ Delete tasks
 
-🚀 # Installation & Running the Project
+🚀 Installation & Running the Project
 
 Clone the repository:
 
