@@ -1,0 +1,101 @@
+.createTodoDiv {
+    width: 500px;
+    height: 150px;
+    background-image: linear-gradient(344deg, rgb(0 0 0 / 70%) 0%, #ff7226 50%) !important;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 12px;
+}
+
+.createTodoTitle {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.createTodoInput {
+    margin-top: 10%;
+    width: 55%;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.createTodoButton {
+    float: right;
+    margin-right: 50px;
+    margin-top: 6%;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    font-family: system-ui;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.createTodoButton:hover {
+    width: 120px;
+    height: 36px;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 12px;
+    background-color: rgb(255, 155, 155);
+    margin-right: 40px;
+    margin-top: 5%;
+}
+
+.TodoListDiv {
+    width: 800px;
+    height: 400px;
+    background-image: linear-gradient(344deg, rgb(0 0 0 / 70%) 0%, #d59900 50%) !important;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 12px;
+}
+
+.TodoItem {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: linear-gradient(344deg, rgb(94 0 0 / 70%) 0%, rgb(216, 52, 52) 50%) !important;
+}
+
+.TodoIcons {
+    margin-top: 9px;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.TodoIcons:hover {
+    fill: white;
+    font-size: 22px;
+}
+
+.TodoText {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.TodoTextDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.TodoUpdateInput {
+    width: 400px;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
